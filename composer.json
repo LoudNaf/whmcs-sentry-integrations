@@ -15,7 +15,7 @@
         "branch-alias": {
             "dev-master": "2.0.x-dev"
         }
-    } 	
+    },
     "autoload": {
         "psr-4": {
             "WhmcsSI\\": "src"
