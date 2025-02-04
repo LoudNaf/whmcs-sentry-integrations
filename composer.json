@@ -9,7 +9,7 @@
     ],
 	"license": "MIT",
     "require": {
-		"sentry/sentry": "^1.7"
+		"sentry/sentry": "^4.10"
 	},
     "autoload": {
         "psr-4": {
