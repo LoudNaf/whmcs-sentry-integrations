@@ -1,3 +1,5 @@
+## Update
+This fork only for enable sentry new version 4.10 (old version 1.7 not work with php 8.2)
 ## Installation
 
 > Since the WHMCS is developed using a composer but without its configuration json file,
