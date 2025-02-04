@@ -11,6 +11,11 @@
     "require": {
 		"sentry/sentry": "^4.10"
 	},
+   "extra": {
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    } 	
     "autoload": {
         "psr-4": {
             "WhmcsSI\\": "src"
