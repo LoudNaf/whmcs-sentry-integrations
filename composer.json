@@ -1,5 +1,5 @@
 {
-    "name": "senikz/whmcs-sentry-integrations",
+    "name": "loudnaf/whmcs-sentry-integrations",
     "description": "Provides the simplest way to integrate your WHMCS project with Sentry",
     "authors": [
         {
