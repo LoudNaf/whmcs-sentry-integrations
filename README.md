@@ -17,10 +17,17 @@ Step-by-step actions to run composer over WHMCS in subfolder:
 require __DIR__ . '/custom/autoload.php';
 ```
 
-After that it becomes possible to install Sentry Integration. To do this run the next command:
+After that it becomes possible to install Sentry Integration. 
+Add following to your composer.json
+```
+    "repositories": [
+        {"type": "vcs", "url": "https://github.com/LoudNaf/whmcs-sentry-integrations"}
+      ],
+```	  
+After that run the next command:
 
 ```sh
-composer require senikz/whmcs-sentry-integrations
+composer require senikz/whmcs-sentry-integrations:dev-master
 ```
 
 ## Configuration
